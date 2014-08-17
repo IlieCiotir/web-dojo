@@ -1,4 +1,4 @@
 html5-dojo
 ==========
 
-Teach kids html5 (html, css3, javascript)
+Teach kids html5 with stories (html, css3, javascript)
