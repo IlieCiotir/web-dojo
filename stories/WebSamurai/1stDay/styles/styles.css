@@ -1,0 +1,36 @@
+aside {
+  width:19%;
+  margin-left:auto;
+  margin-right:auto;
+  float:left;
+  margin-right:1%;
+  margin-top:1%;
+
+}
+main {
+  width:80%;
+  margin-left:auto;
+  margin-right:auto;
+  float:left;
+}
+
+.desk {
+  width:100%;
+}
+
+.desk iframe {
+  width:100%;
+  border:1px solid #aabbaa;
+  height: 100%;
+}
+
+.wall {
+  width:100%;
+  height:100%;
+}
+
+.wall iframe {
+  width:30%;
+  height:30%;
+  border:1px solid #aabbaa;
+}

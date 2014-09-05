@@ -30,3 +30,23 @@ footer{
   bottom:0px;
   position:relative;
 }
+
+rework, .rework {
+  text-decoration: underline;
+}
+
+rework:before, .rework:before {
+  content: "Rework this part of the story to fit better ("
+}
+
+rework:after, .rework:after {
+  content: ' )' ;
+}
+
+todo, .todo {
+  color: #bbaabb;
+}
+
+todo:before, .todo:before{
+  content: '//TODO '
+}
