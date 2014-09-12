@@ -1,0 +1,46 @@
+aside {
+  width:19%;
+  margin-left:auto;
+  margin-right:auto;
+  float:left;
+  margin-right:1%;
+  margin-top:1%;
+
+}
+main {
+  width:80%;
+  margin-left:auto;
+  margin-right:auto;
+  float:left;
+}
+
+.backpack_item {
+  width:300px;
+  float:left;
+  margin:4px;
+  padding:4px;
+  border:1px solid #777;
+  background-color: #bce;
+  box-shadow: 2px 2px #bbb;
+}
+
+.body_part{
+  width:70%;
+  height:25%;
+  float:center;
+  position:relative;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  text-align: center;
+  background-color: #bce;
+}
+
+.torso_part {
+  width:33%;
+  margin-right: auto;
+  margin-left: auto;
+  float:left;
+  height:100%;
+}
