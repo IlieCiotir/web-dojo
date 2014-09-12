@@ -34,3 +34,13 @@ main {
   height:30%;
   border:1px solid #aabbaa;
 }
+
+
+.table {
+  width:320px;
+  height:1200px;
+  border:1px solid black;
+  float:center;
+  margin-left: auto;
+  margin-right: auto;
+}
