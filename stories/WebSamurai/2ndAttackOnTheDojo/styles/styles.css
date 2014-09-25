@@ -7,9 +7,129 @@ aside {
   margin-top:1%;
 
 }
+
 main {
   width:80%;
   margin-left:auto;
   margin-right:auto;
   float:left;
+}
+
+
+.wrecked_room {
+  position:relative;
+  height: 100%;
+}
+
+.wall_and_door {
+  position: relative;
+  height: 100%;
+  width:100%;
+  padding-left: 10%;
+}
+
+.wall_and_door .hinge {
+  background-color: black;
+  width:5px;
+  height: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  float:left;
+}
+
+.wall_and_door .frame { 
+  background-color: gray;
+  width: 300px;
+  height: 80%;
+}
+
+.wall_and_door .frame .top {
+
+  width:100%;
+  height:33%;
+}
+
+.wall_and_door .frame .top .window {
+  background-color: white;
+  width:50%;
+  height:50%;
+  margin:auto;
+  position:relative;
+  top:30%;
+}
+
+.wall_and_door .frame .middle {
+  width:100%;
+  height:33%; 
+}
+
+.wall_and_door .frame .middle .knob {
+  background-color: brown;
+  float:right;
+  width:15px;
+  height:5px;
+  position: relative;
+  top:45%;
+}
+
+.wall_and_door .frame .bottom {
+  width:100%;
+  height:33%;
+}
+
+.beams {
+ position: absolute;
+ z-index: 10;
+ top: 0;
+ bottom:0;
+ left: 0;
+ right: 0;
+ 
+}
+
+.beams .beam {
+  position: absolute;
+  width:30px;
+  height:800px;
+  background-color:brown;
+  border:1px dotted black;
+}
+
+#beam1 {
+  left:300px;
+  transform:rotate(-30deg);
+}
+
+#beam2 {
+  left:500px;
+  transform:rotate(90deg);
+}
+
+#beam3 {
+  left:300px;
+  top:-100px;
+  transform:rotate(30deg); 
+}
+
+#beam4 {
+  left:300px;
+  top:-100px;
+  transform:skew(20deg, -40deg);
+}
+
+#beam5 {
+  left:300px;
+  top:-250px;
+
+  transform:scale(0.5,0.5);
+}
+
+.weapon_craft {
+  margin-top: 200px;
+}
+.weapon_craft #mighty_weapon {
+  width:80%;
+  height:40px;
+  background-color:brown;
+  
 }
