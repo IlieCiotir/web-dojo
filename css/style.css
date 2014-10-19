@@ -9,7 +9,7 @@ body {
 header {
 	margin:0;
 	width:100%;
-	height:214px;
+	height:220px;
 	background-color: #4276B6;
 }
 
@@ -29,15 +29,12 @@ header .header-subtitle {
 	color:#D8D8D8;
 }
 header .share-links {
-	float:right;
+	
 	padding-right: 100px;
 	color:white;
 	width:110px;
 }
 
-header .share-links .fb-share-button {
-	color: white;
-}
 
 .github-links {
 	width:100%;
