@@ -12,6 +12,7 @@ angular.module('htmldojo').factory('StoriesSvc', [function(){
 				the1st: {
 					name: "Eduard"
 				},
+				mentions: ['Anonymus', 'Kayela']
 				
 			},
 			dificulty: "Medium",

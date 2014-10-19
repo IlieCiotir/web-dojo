@@ -39,6 +39,8 @@
 				</div>
 				<div class="description">
 					<p>What is this all about</p>
+					<p>What are we looking for</p>
+
 				</div>
 			</section>
 			
@@ -53,6 +55,11 @@
 					<div class="title">Hall of fame</div>
 					<div class="the-1">
 						{{story.hallOfFame.the1st.name}}
+					</div>
+					<div>
+						<div ng-repeat="person in story.hallOfFame.mentions">
+							{{person}}
+						</div>
 					</div>
 				</div>
 				<div class="story-info">
