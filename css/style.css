@@ -32,6 +32,7 @@ header .share-links {
 	float:right;
 	padding-right: 100px;
 	color:white;
+	width:110px;
 }
 
 header .share-links .fb-share-button {
