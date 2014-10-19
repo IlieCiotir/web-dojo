@@ -17,9 +17,9 @@
 				<div class="header-subtitle">Teach kids web programming with storytelling</div>
 		</header>
 		<div class="github-links">
-			<div class="view-on-github"><a class="btn btn-small" href="https://github.com/Toskv/html5-dojo">View on GitHub</a></div>
+			<div class="view-on-github"><a class="btn btn-small" href="https://github.com/Toskv/web-dojo">View on GitHub</a></div>
 			<div class="download-links">
-				<a class="btn btn-small" href="">Download</a>
+				<a class="btn btn-small" href="https://github.com/Toskv/web-dojo/archive/master.zip">Download  <span class="glyphicon glyphicon-circle-arrow-down"></span></a>
 			</div>
 		</div>
 		<div class="main-content">
@@ -45,8 +45,15 @@
 						{{story.hallOfFame.the1st.name}}
 					</div>
 				</div>
-				<div class="story-links">
-					Prerequisites: <span class="prerequisites">{{story.prerequisites}}</span>
+				<div class="story-info">
+					<div class="prerequisites">Prerequisites: <span>{{story.prerequisites}}</span>
+					</div>
+					<div class="dificulty {{story.dificulty}}" >
+						Dificulty: <span>{{story.dificulty}}</span>
+					</div>
+					<div class="links">
+						<a href="{{story.gitHubFolder}}">View on GitHub</a>
+					</div>
 				</div>
 			</section>
 		</div>

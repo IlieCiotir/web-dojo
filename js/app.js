@@ -16,7 +16,7 @@ angular.module('htmldojo').factory('StoriesSvc', [function(){
 			},
 			dificulty: "Medium",
 			prerequisites:"CodeCademy HTML/CSS/Javascript course",
-			downloadLink: ""
+			gitHubFolder: "https://github.com/Toskv/web-dojo/tree/master/stories/WebSamurai"
 		};
 	var stories = [webSamurai];
 	return {
