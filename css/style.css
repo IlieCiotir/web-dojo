@@ -29,7 +29,7 @@ header .header-subtitle {
 	color:#D8D8D8;
 }
 header .share-links {
-	text-align: right;
+	float:right;
 	padding-right: 100px;
 	color:white;
 }
