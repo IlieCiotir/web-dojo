@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Coder Dojo Web Dojo</title>
+		
+		<link rel="stylesheet" type="text/css" href="vendor/bootstrap/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+
+		<script type="text/javascript" src="vendor/angular/angular.js"></script>
+		<script type="text/javascript" src="vendor/boostrap/ui-bootstrap-tpls.js"></script>
+		<script type="text/javascript" src="js/app.js"></script>
+
+	</head>
+	<body ng-app="htmldojo" ng-controller="Dojo">
+		<header>
+				<div class="header-title">Web Dojo</div><br/>
+				<div class="header-subtitle">Teach kids web programming with storytelling</div>
+		</header>
+		<div class="github-links">
+			<div class="view-on-github"><a class="btn btn-small" href="https://github.com/Toskv/html5-dojo">View on GitHub</a></div>
+			<div class="download-links">
+				<a class="btn btn-small" href="">Download</a>
+			</div>
+		</div>
+		<div class="main-content">
+			<section class="about">
+				<div class="title">
+					About
+				</div>
+				<div class="description">
+					What is this all about
+				</div>
+			</section>
+			
+			<section class="stories" ng-repeat="story in stories">
+				<div class="title">
+					{{story.title}}
+				</div>
+				<div class="description">
+					{{story.description}}
+				</div>
+				<div class="hall-of-fame">
+					<div class="title">Hall of fame</div>
+					<div class="the-1">
+						{{story.hallOfFame.the1st.name}}
+					</div>
+				</div>
+				<div class="story-links">
+					Prerequisites: <span class="prerequisites">{{story.prerequisites}}</span>
+				</div>
+			</section>
+		</div>
+		<footer></footer>
+	</body>
+</html>
