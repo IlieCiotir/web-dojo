@@ -55,10 +55,15 @@
 					{{story.description}}
 				</div>
 				<div class="hall-of-fame">
-					<div class="title">Hall of fame</div>
-					<div class="the-1">
-						{{story.hallOfFame.the1st.name}}
-						<honored-person person="{{story.hallOfFame.the1st}}"></honored-person>
+					<div class="subtitle">Hall of fame</div>
+					<div class="the-1st">
+						<div class="avatar-image">
+							<img ng-src="{{story.hallOfFame.the1st.avatar}}"/>
+						</div>
+						<div class="info">
+							<div class="name">{{story.hallOfFame.the1st.name}}</div>
+							<div class="achievement">The first to test the story.</div>
+						</div>
 					</div>
 					<div>
 						<div ng-repeat="person in story.hallOfFame.mentions">

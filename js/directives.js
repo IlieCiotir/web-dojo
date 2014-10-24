@@ -8,7 +8,7 @@ angular.module('hmtldojo.hallOfFame').directive('honoredPerson',[function(){
 		//templateUrl: 'js/views/honoredPerson.html',
 		template :'<div class="honoredPerson">' 
 				//	+ '<img ng-src="{{person.avatar}}"></img>'
-					+ 'blablabla{{person.name}}' 
+					+ 'blablabla{{person["name"]}}' 
 					+'</div>',
 		controller:'HonoredPersonCtrl'
 	};

@@ -10,10 +10,10 @@ angular.module('htmldojo').factory('StoriesSvc', [function(){
 			author:"Ilie",
 			hallOfFame: {
 				the1st: {
-					name: "Eduard",
-					avatar: 'images/WebSamurai/avatar/eduard.png'
+					name: "TBD",
+					avatar: 'images/avatars/malfurion.png'
 				},
-				mentions: ['Anonymus', 'Kayela']
+				mentions: []
 				
 			},
 			dificulty: "Medium",
