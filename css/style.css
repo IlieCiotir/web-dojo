@@ -163,3 +163,11 @@ section .story-info .links {
 	padding: 5px;
 	text-align: center;
 }
+
+div .owner {
+	width:100%;
+	display: flex;
+	flex-flow:row nowrap;
+	justify-content:center;
+	margin-top:20px;
+}
