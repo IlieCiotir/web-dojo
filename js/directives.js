@@ -5,7 +5,11 @@ angular.module('hmtldojo.hallOfFame').directive('honoredPerson',[function(){
 		scope:{
 			person: '@'
 		},
-		templateUrl: 'js/views/honoredPerson.html',
+		//templateUrl: 'js/views/honoredPerson.html',
+		template :'<div class="honoredPerson">' 
+				//	+ '<img ng-src="{{person.avatar}}"></img>'
+					+ 'blablabla{{person.name}}' 
+					+'</div>',
 		controller:'HonoredPersonCtrl'
 	};
 }]);

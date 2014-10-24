@@ -11,7 +11,7 @@ angular.module('htmldojo').factory('StoriesSvc', [function(){
 			hallOfFame: {
 				the1st: {
 					name: "Eduard",
-					icon: 'images/WebSamurai/honor/eduard.png'
+					avatar: 'images/WebSamurai/avatar/eduard.png'
 				},
 				mentions: ['Anonymus', 'Kayela']
 				
