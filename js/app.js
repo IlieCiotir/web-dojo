@@ -1,4 +1,4 @@
-angular.module('htmldojo', []);
+angular.module('htmldojo', ['hmtldojo.hallOfFame']);
 angular.module('htmldojo').controller('Dojo', ['$scope', 'StoriesSvc', function($scope, StoriesSvc){
 	$scope.stories = StoriesSvc.stories;
 }]);
@@ -10,7 +10,8 @@ angular.module('htmldojo').factory('StoriesSvc', [function(){
 			author:"Ilie",
 			hallOfFame: {
 				the1st: {
-					name: "Eduard"
+					name: "Eduard",
+					icon: 'images/WebSamurai/honor/eduard.png'
 				},
 				mentions: ['Anonymus', 'Kayela']
 				
