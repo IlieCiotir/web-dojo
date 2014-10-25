@@ -10,7 +10,7 @@ angular.module('htmldojo').factory('StoriesSvc', [function(){
 			author:"Ilie",
 			hallOfFame: {
 				the1st: {
-					name: "TBD",
+					name: "Muller Eduard",
 					avatar: 'images/avatars/malfurion.png'
 				},
 				mentions: []
