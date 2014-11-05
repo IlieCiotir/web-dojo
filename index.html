@@ -41,8 +41,12 @@
 					About
 				</div>
 				<div class="description">
-					<p>What is this all about</p>
-					<p>What are we looking for</p>
+					<p>I started this project while mentoring the HTML group at <a href="http://coderdojo.ro/locatii/timisoara">Coder Dojo Timisoara</a>. It's meant to provide kids a fun and engaging way of practicing their development skills after they finish the courses available on <a href="http://www.codecademy.com/learn">Codecademy</a>.
+					The idea behind it is to provide an engaging story/adventure game to kids through which they can advance by coding their way out of situations.</p>
+					
+					<p>In order to keep focus on learning I tried to keep the setup to a minimum. For the WebSamurai story no setup is required at all, in order to complete a text editor and a browser is sufficient.</p>
+
+					<p>If this sounds cool to you and you'd like to help out please contact me or just fork/branch the project on GitHub. You can also help as a non-developer by reviewing the text, sharing new story ideas or help improve this website.</p>
 
 				</div>
 			</section>
@@ -52,7 +56,9 @@
 					{{story.title}}
 				</div>
 				<div class="description">
-					{{story.description}}
+					<p ng-repeat="p in story.description.ps">
+						{{p}}
+					</p>
 				</div>
 				<div class="hall-of-fame">
 					<div class="subtitle">Hall of fame</div>
