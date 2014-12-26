@@ -19,15 +19,10 @@
   					js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
   					fjs.parentNode.insertBefore(js, fjs);
 				}(document, 'script', 'facebook-jssdk'));</script>
-
-		<script src="https://apis.google.com/js/platform.js" async defer></script>
-
-
-
 	</head>
 	<body ng-app="htmldojo" ng-controller="Dojo">
 		<div id="fb-root"></div>
-		<div class="g-plus" data-action="share"></div>
+		
 		<header>
 				<div class="header-title">Web Dojo</div><br/>
 				<div class="header-subtitle" ng-controller="Motto">{{motto}}</div>
