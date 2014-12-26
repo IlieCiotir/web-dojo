@@ -30,21 +30,24 @@ angular.module('htmldojo').factory('StoriesSvc', [function(){
 	}
 }]);
 
-angular.module('htmldojo').controller('Moto', ['$scope', '$timeout', function($scope, $timeout){
-	var motoList = [
+angular.module('htmldojo').controller('Motto', ['$scope', '$timeout', function($scope, $timeout){
+	var mottoList = [
 		"Share your programming superpowers",
-		"Be part of the story",
-		"Teach the next generation of superheroes",
-		"Be a hero",
+		"Teach with a story",
+		"Mentor the next generation of programmers",
+		"Be someone's hero",
+		"#PowerfulPlay",
+		"Yet another awesome motto"
 	];
+
 	var index = 0;
-	$scope.moto = motoList[index];
-	var changeMoto = function() {
-		index = (index + 1) % motoList.length;
-		$scope.moto = motoList[index];
-		$timeout(changeMoto, 3000);
+	$scope.motto = mottoList[index];
+	var changeMotto = function() {
+		index = (index + 1) % mottoList.length;
+		$scope.motto = mottoList[index];
+		$timeout(changeMotto, 3000);
 	};
-	$timeout(changeMoto, 3000);
+	$timeout(changeMotto, 3000);
 
 	
 }]);
