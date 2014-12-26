@@ -29,3 +29,22 @@ angular.module('htmldojo').factory('StoriesSvc', [function(){
 		stories:stories
 	}
 }]);
+
+angular.module('htmldojo').controller('Moto', ['$scope', '$timeout', function($scope, $timeout){
+	var motoList = [
+		"Share your programming superpowers",
+		"Be part of the story",
+		"Teach the next generation of superheroes",
+		"Be a hero",
+	];
+	var index = 0;
+	$scope.moto = motoList[index];
+	var changeMoto = function() {
+		index = (index + 1) % motoList.length;
+		$scope.moto = motoList[index];
+		$timeout(changeMoto, 3000);
+	};
+	$timeout(changeMoto, 3000);
+
+	
+}]);
